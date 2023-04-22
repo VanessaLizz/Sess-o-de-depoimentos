@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte: "barlow semi condensed";
+    --violeta-escuro: hsl(263, 55%, 52%);
+    --cinza-escuro-azulado: hsl(217, 19%, 35%);
+    --cinza-claro-azulado: hsl(210, 46%, 95%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(0, 0%, 81%);
+    --azul-escuro: hsl(219, 29%, 14%);
+}
+
+body {
+    font-family: var(--fonte);
+    font-size: 13px;
+    font-weight: 500;
+}
